@@ -1,0 +1,65 @@
+body {
+    background-color: lightgray;
+}
+
+.notepad-container { 
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .notepad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+} */
+
+.notepad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.notepad-body {
+    max-height: 300px;
+    max-width: 800px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: #fff;
+
+}
+
+.btn-delete {
+    background-color: red;
+    color: #fff;
+    
+}
+.btn-createpage {
+    background-color: blue;
+    color: #fff;
+    
+}
+.btn-group{
+    border-bottom: 2rem;
+}   
+
+.list-group-item{
+    background-color:white ;
+}
+
+/* .Input{
+    margin-left: 5rem;
+    min-width: 1000px;
+    min-height: 400px;
+    display: flex
+    
+    
+} */
